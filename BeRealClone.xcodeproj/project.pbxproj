@@ -47,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		FE8415BC2F5E0DB100F09B6A /* README_Project2_BeRealClone.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README_Project2_BeRealClone.md; path = ../../../../Downloads/README_Project2_BeRealClone.md; sourceTree = "<group>"; };
+		FE8415C12F5E0E2A00F09B6A /* README_Project2_BeRealClone.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Project2_BeRealClone.md; sourceTree = "<group>"; };
 		FEDA2D8A2F5765970020B3F0 /* BeRealClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeRealClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDA2D8D2F5765970020B3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEDA2D8F2F5765970020B3F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +136,7 @@
 				FEDA2D962F57659B0020B3F0 /* Assets.xcassets */,
 				FEDA2D982F57659B0020B3F0 /* LaunchScreen.storyboard */,
 				FEDA2D9B2F57659B0020B3F0 /* Info.plist */,
+				FE8415C12F5E0E2A00F09B6A /* README_Project2_BeRealClone.md */,
 			);
 			path = BeRealClone;
 			sourceTree = "<group>";
