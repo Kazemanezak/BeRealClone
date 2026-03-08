@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE8415BD2F5E0DB200F09B6A /* README_Project2_BeRealClone.md in Resources */ = {isa = PBXBuildFile; fileRef = FE8415BC2F5E0DB100F09B6A /* README_Project2_BeRealClone.md */; };
 		FEDA2D8E2F5765970020B3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA2D8D2F5765970020B3F0 /* AppDelegate.swift */; };
 		FEDA2D902F5765970020B3F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA2D8F2F5765970020B3F0 /* SceneDelegate.swift */; };
 		FEDA2D952F5765980020B3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDA2D932F5765980020B3F0 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE8415BC2F5E0DB100F09B6A /* README_Project2_BeRealClone.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README_Project2_BeRealClone.md; path = ../../../../Downloads/README_Project2_BeRealClone.md; sourceTree = "<group>"; };
 		FEDA2D8A2F5765970020B3F0 /* BeRealClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeRealClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDA2D8D2F5765970020B3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEDA2D8F2F5765970020B3F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		FEDA2D812F5765970020B3F0 = {
 			isa = PBXGroup;
 			children = (
+				FE8415BC2F5E0DB100F09B6A /* README_Project2_BeRealClone.md */,
 				FEDA2D8C2F5765970020B3F0 /* BeRealClone */,
 				FEDA2DA32F57659B0020B3F0 /* BeRealCloneTests */,
 				FEDA2DAE2F57659B0020B3F0 /* BeRealCloneUITests */,
@@ -324,6 +327,7 @@
 			files = (
 				FEDA2D9A2F57659B0020B3F0 /* LaunchScreen.storyboard in Resources */,
 				FEDA2D972F57659B0020B3F0 /* Assets.xcassets in Resources */,
+				FE8415BD2F5E0DB200F09B6A /* README_Project2_BeRealClone.md in Resources */,
 				FEDA2D952F5765980020B3F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
