@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE8415BD2F5E0DB200F09B6A /* README_Project2_BeRealClone.md in Resources */ = {isa = PBXBuildFile; fileRef = FE8415BC2F5E0DB100F09B6A /* README_Project2_BeRealClone.md */; };
+		FE8415C62F6484D200F09B6A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8415C52F6484D200F09B6A /* Comment.swift */; };
+		FE8415CB2F64856700F09B6A /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8415CA2F64856700F09B6A /* PostDetailViewController.swift */; };
+		FE8415D02F649B9300F09B6A /* README_Project3_BeRealClone_Pt2.md in Resources */ = {isa = PBXBuildFile; fileRef = FE8415CF2F649B9300F09B6A /* README_Project3_BeRealClone_Pt2.md */; };
 		FEDA2D8E2F5765970020B3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA2D8D2F5765970020B3F0 /* AppDelegate.swift */; };
 		FEDA2D902F5765970020B3F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA2D8F2F5765970020B3F0 /* SceneDelegate.swift */; };
 		FEDA2D952F5765980020B3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDA2D932F5765980020B3F0 /* Main.storyboard */; };
@@ -46,8 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FE8415BC2F5E0DB100F09B6A /* README_Project2_BeRealClone.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README_Project2_BeRealClone.md; path = ../../../../Downloads/README_Project2_BeRealClone.md; sourceTree = "<group>"; };
-		FE8415C12F5E0E2A00F09B6A /* README_Project2_BeRealClone.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Project2_BeRealClone.md; sourceTree = "<group>"; };
+		FE8415C52F6484D200F09B6A /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		FE8415CA2F64856700F09B6A /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		FE8415CF2F649B9300F09B6A /* README_Project3_BeRealClone_Pt2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_Project3_BeRealClone_Pt2.md; sourceTree = "<group>"; };
 		FEDA2D8A2F5765970020B3F0 /* BeRealClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeRealClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDA2D8D2F5765970020B3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEDA2D8F2F5765970020B3F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,7 +105,6 @@
 		FEDA2D812F5765970020B3F0 = {
 			isa = PBXGroup;
 			children = (
-				FE8415BC2F5E0DB100F09B6A /* README_Project2_BeRealClone.md */,
 				FEDA2D8C2F5765970020B3F0 /* BeRealClone */,
 				FEDA2DA32F57659B0020B3F0 /* BeRealCloneTests */,
 				FEDA2DAE2F57659B0020B3F0 /* BeRealCloneUITests */,
@@ -136,7 +138,7 @@
 				FEDA2D962F57659B0020B3F0 /* Assets.xcassets */,
 				FEDA2D982F57659B0020B3F0 /* LaunchScreen.storyboard */,
 				FEDA2D9B2F57659B0020B3F0 /* Info.plist */,
-				FE8415C12F5E0E2A00F09B6A /* README_Project2_BeRealClone.md */,
+				FE8415CF2F649B9300F09B6A /* README_Project3_BeRealClone_Pt2.md */,
 			);
 			path = BeRealClone;
 			sourceTree = "<group>";
@@ -172,6 +174,7 @@
 			children = (
 				FEDA2DD22F576E3D0020B3F0 /* User.swift */,
 				FEDA2DD72F576E480020B3F0 /* Post.swift */,
+				FE8415C52F6484D200F09B6A /* Comment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				FEDA2DEE2F57776B0020B3F0 /* SignUpViewController.swift */,
 				FEDA2DF32F57777C0020B3F0 /* FeedViewController.swift */,
 				FEDA2DF82F57778F0020B3F0 /* CreatePostViewController.swift */,
+				FE8415CA2F64856700F09B6A /* PostDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -327,9 +331,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8415D02F649B9300F09B6A /* README_Project3_BeRealClone_Pt2.md in Resources */,
 				FEDA2D9A2F57659B0020B3F0 /* LaunchScreen.storyboard in Resources */,
 				FEDA2D972F57659B0020B3F0 /* Assets.xcassets in Resources */,
-				FE8415BD2F5E0DB200F09B6A /* README_Project2_BeRealClone.md in Resources */,
 				FEDA2D952F5765980020B3F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDA2DEA2F57774D0020B3F0 /* LoginViewController.swift in Sources */,
+				FE8415CB2F64856700F09B6A /* PostDetailViewController.swift in Sources */,
 				FEDA2DFE2F5777A70020B3F0 /* PostCell.swift in Sources */,
 				FEDA2D8E2F5765970020B3F0 /* AppDelegate.swift in Sources */,
 				FEDA2D902F5765970020B3F0 /* SceneDelegate.swift in Sources */,
@@ -363,6 +368,7 @@
 				FEDA2DD82F576E480020B3F0 /* Post.swift in Sources */,
 				FEDA2DD32F576E3D0020B3F0 /* User.swift in Sources */,
 				FEDA2DF42F57777C0020B3F0 /* FeedViewController.swift in Sources */,
+				FE8415C62F6484D200F09B6A /* Comment.swift in Sources */,
 				FEDA2DDD2F5772B90020B3F0 /* UIViewController+Alerts.swift in Sources */,
 				FEDA2DE22F5773A70020B3F0 /* DateFormatter+Post.swift in Sources */,
 				FEDA2DF92F57778F0020B3F0 /* CreatePostViewController.swift in Sources */,

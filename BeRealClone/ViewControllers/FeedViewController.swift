@@ -11,10 +11,18 @@ import ParseSwift
 class FeedViewController: UITableViewController {
 
     private var posts: [Post] = []
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: Constants.storyboardName, bundle: nil)
+        let detail = storyboard.instantiateViewController(withIdentifier: "PostDetailViewController") as! PostDetailViewController
+        detail.post = posts[indexPath.row]
+        navigationController?.pushViewController(detail, animated: true)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 120   // try 140 or 180
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 350
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -27,9 +35,12 @@ class FeedViewController: UITableViewController {
     }
 
     private func queryPosts() {
-        let query = Post.query()
+        let yesterdayDate = Calendar.current.date(byAdding: .day, value: -1, to: Date())!
+
+        let query = Post.query()    
             .include("user")
             .order([.descending("createdAt")])
+            .where("createdAt" >= yesterdayDate)
             .limit(10)
 
         query.find { [weak self] result in
